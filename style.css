@@ -1,0 +1,210 @@
+#elem {
+	text-shadow: 10px 5px 3px red;
+}
+#elem1 {
+	text-shadow: -10px -5px 0px green;
+}
+#elem2 {
+	text-shadow: 15px -10px 0px green;
+}
+#elem3 {
+	text-shadow: 0px 0px 5px green;
+}
+#elem4 {
+  text-shadow: 0px -10px 0px red, 0px 10px 0px green;
+}
+#elem5 {
+  text-shadow: 3px 2px 3px;
+}
+#elem6 {
+  text-shadow: 0px 0px 3px;
+}
+#elem7 {
+  text-shadow: 0px 0px 3px red;
+}
+#elem8 {
+  text-shadow: 10px 10px 3px red, -10px -10px 3px blue;
+}
+#elem9 {
+  text-shadow: 10px 10px 1px red, 20px 20px 1px blue;
+}
+#block {
+	box-shadow: 20px 15px 5px red;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block1 {
+	box-shadow: 20px -15px 0px green;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block2 {
+	box-shadow: 0px 0px 5px ;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block3 {
+	box-shadow: 4px 3px 3px ;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block4 {
+	box-shadow: 0px 10px 10px,  0px -10px 10px;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block5 {
+	box-shadow: 0px 30px 0px,  0px -30px 0px, 30px 0px 0px, -30px 0px 0px;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block6 {
+	box-shadow: 20px 30px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block7 {
+	box-shadow: 20px 30px 10px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block8 {
+	box-shadow: 20px 30px 10px black, -20px -30px 10px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block9 {
+	box-shadow: inset 5px 5px 10px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#block10 {
+	box-shadow: inset 5px 5px 10px blue, inset -5px -5px 10px red;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#lineika {
+	background: linear-gradient(to top, #fefcea, #f1da36);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#lineika2 {
+	background: linear-gradient(to left, #fefcea, #f1da36);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#lineika3 {
+	background: linear-gradient(to right, #fefcea, #f1da36);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#lineika4 {
+	background: linear-gradient(to top left, red, white);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#lineika5 {
+	background: linear-gradient(to right, red 0px, blue 200px, white 350px, red);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#lineika6 {
+	background: linear-gradient(0deg, red 0px, red 100px, white 100px, white 200px, red 200px, red 300px);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#radic {
+	background: radial-gradient(#55ddff, #0081b5);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#radic2{
+	background: radial-gradient(at top, #55ddff, #0081b5);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#radic3{
+	background: radial-gradient(circle, #55ddff, #0081b5);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#radic4{
+	background: radial-gradient(ellipse, #55ddff, #0081b5);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#radic5{
+	background: radial-gradient(circle closest-side, #55ddff, #0081b5);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#radic6{
+	background: radial-gradient(circle closest-corner at 30px 40px, #55ddff, #0081b5);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#radic7{
+	background: radial-gradient(circle closest-side, #333 10px, white 30px, white 40px, green 50px);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#radic8{
+	background: radial-gradient(circle closest-side, green 0px, green 30px, white 30px, white 50px, green 50px);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#repeat {
+	background: repeating-linear-gradient(90deg,white, white 5px, black 5px, black 10px);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#repeat2{
+	background: repeating-linear-gradient(0deg, white, white 5px, black 5px, black 10px);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#repeat3{
+	background: repeating-linear-gradient(to top, white, white 5px, black 5px, black 6px);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#repeat4{
+	background: repeating-linear-gradient(45deg, white, white 5px, red 5px, red 8px);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#repeatradic {
+	background: repeating-radial-gradient(circle, black, black 5px, white 5px, white 10px);
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
